@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    color: #fff;
+    background-color: #599fda;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.menu{
+    /*border: 1px solid #fff;*/
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links{
+    display: flex;
+    gap: 10px;
+}
+
+.hero-container{
+    background: skyblue;
+    display: flex;
+    justify-content: center;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+    width: 900px;
+    height: 200px;
+    align-items: center;
+}
+
+.villain-container{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+
+.villain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.one{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.four{
+    display: flex;
+    justify-content: space-between;
+    
+}

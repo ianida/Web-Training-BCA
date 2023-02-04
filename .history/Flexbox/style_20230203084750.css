@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    color: #fff;
+    background-color: #599fda;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.menu{
+    /*border: 1px solid #fff;*/
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links{
+    display: flex;
+    gap: 10px;
+}
+
+.hero-container{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+}
+
+.hero{
+    background: blueviolet;
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    height: 400px;
+    align-items: ;
+}
+
+.subscribe{
+    display: flex;
+    justify-content: space-between;
+}
+
