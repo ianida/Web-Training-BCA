@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    background-color: hsl(220, 15%, 55%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+.product{
+    width: 600px;
+    background-color: white;
+    padding: 15px;
+    margin: 10px 10px;
+    display: flex;
+}
+
+.product > *{
+    width: 50%;
+}
+
+.product-image{
+    height: 100%;
+    width: 100%;
+}
+
+.product-content{
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.product-title,.product-description{
+    font-family: 'Outfit', sans-serif;
+}
+
+.product-title{
+    font-size:15px;
+    margin: 20px;
+    text-align: b;
+}
+
+.product-description{
+    margin: 20px;
+    color: hsl(212, 45%, 89%);
+    line-height:1.5;
+    gap:10px;
+}
