@@ -1,0 +1,57 @@
+/**
+* ========Normalization========
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: url(./background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.key-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+    border: 4px solid white;   
+}
+
+.key {
+    border: 4px solid black;
+    border-radius: 5%;
+    margin: 10px;
+    font-size: 15px;
+    padding: 10px 5px;
+    width: 100px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+}
+/*
+.playing {
+    background: #fdd006;
+    border-color: #fdd006;
+    transform: scale(1.1);
+    transition: all 0.07s;
+    box-shadow: 0 0 10px #fdd006;
+}*/
+
+kbd {
+    display: block;
+    font-size: 30px;
+}
+
+.sound {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fdd006;
+}

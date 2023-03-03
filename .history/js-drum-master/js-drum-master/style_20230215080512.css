@@ -1,0 +1,26 @@
+/**
+* ========Normalization========
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: url(./background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.key-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+    border: 4px s;   
+}

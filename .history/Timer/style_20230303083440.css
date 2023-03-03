@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: purple;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;    
+}
+
+.timer-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
